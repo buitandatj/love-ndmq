@@ -85,12 +85,12 @@ function App() {
           {hours}:{minutes}:{seconds}
         </h3>
         <div className="name-double">
-          <div>
+          <div style={{flex:1}}>
             <img src="/IMG_00472.JPG" alt="" className="img-love" />
             <div>Nguyễn Đình Mạnh Quân</div>
           </div>
-          <img src="/trai_tim.png" alt="" />
-          <div>
+         <div className='title-box text-color' style={{flex:1}}>I LOVE YOU </div>
+         <div style={{flex:1}}>
             <img src="/IMG_0007.JPG" alt="" className="img-love"/>
             <div>Hồ Thu Nguyệt</div>
           </div>

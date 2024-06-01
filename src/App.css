@@ -17,6 +17,7 @@
 img {
   object-fit: cover;
   max-width: 40%;
+ height: 300pz;
 }
 span {
   font-size: 3rem;
@@ -37,11 +38,18 @@ span {
 }
 .name-double {
   font-size: 2rem;
-  background: -webkit-linear-gradient(#744747, #ae4e4e);
+  background: black;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: flex;
   justify-content: space-between;
+}
+.text-color{
+  font-size: 3rem;
+  background: -webkit-linear-gradient(#db0e82, #a10e42);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 @media (max-width: 1127px) {
   .box {
